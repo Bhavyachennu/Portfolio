@@ -1,4 +1,6 @@
 # Portfolio
+<img width="1420" alt="image" src="https://github.com/user-attachments/assets/1e781162-ba52-424b-b77b-7b7eeaead213" />
+
 Project Description
 
 This project is focused on the development of a personal portfolio website, created using HTML and CSS, designed to showcase my skills, projects, and accomplishments as a Computer Science student. The primary goal of this portfolio is to create an accessible and visually appealing platform where potential employers, collaborators, and peers can learn more about me and my work.
@@ -33,7 +35,5 @@ Tools and Technologies
 
 This project serves as a personal showcase of my web development skills. It is continuously evolving as I acquire new skills and complete more projects. In the future, I plan to add more sections, such as a blog or a section dedicated to my contributions in open-source projects. This portfolio is an essential tool in presenting myself professionally and effectively, and I am excited to share it with the world.
 
-#output
-<img width="1420" alt="image" src="https://github.com/user-attachments/assets/1e781162-ba52-424b-b77b-7b7eeaead213" />
 
 
