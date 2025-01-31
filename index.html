@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="popup-target"></h1> 
+   <!-- Home Section -->
+<section id="home">
+    <h2 class="name">Bhavya Harshitha Chennu</h2>
+    <div class="home-content">
+        <p>I love designing and building software as a developer. I enjoy working with others and learning new technologies to improve my skills. My goal is to be part of a great team and grow in software development. I'm passionate about Java and web development, creating websites that are both functional and easy to use.</p>
+        <img src="ProfileImage_300x300.jpg" alt="Profile Picture">
+    </div>
+    <div class="social-links">
+        <a href="https://www.linkedin.com/in/bhavya-harshitha-chennu-180919281/" target="_blank">
+            <img src="linkedin-icon.png" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/Bhavyachennu" target="_blank">
+            <img src="github-icon.png" alt="GitHub">
+        </a>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="profile">
+            <p>Hi, I'm a final-year Computer Science student passionate about technology, innovation, and solving real-world problems through my projects and skills.</p>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>VIT-AP University</h3>
+                <p>B.Tech in Computer Science</p>
+                <p>CGPA: 8.24</p>
+            </div>
+            <div class="card">
+                <h3>Sri Chaitanya College, Gudavali</h3>
+                <p>Intermediate (MPC)</p>
+                <p>Percentage: 84.1%</p>
+            </div>
+            <div class="card">
+                <h3>Kommareddy High School, Bantumilli</h3>
+                <p>Class X</p>
+                <p>GPA: 9.8/10</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Fingerprint-Based Door Lock</h3>
+                <p>A security system using fingerprint authentication.</p>
+            </div>
+            <div class="card">
+                <h3>Smart Door Lock System</h3>
+                <p>Arduino-based home security system.</p>
+            </div>
+            <div class="card">
+                <h3>Online Bookstore</h3>
+                <p>PHP & MySQL-based book selling platform.</p>
+            </div>
+            <div class="card">
+                <h3>HandWave: Gesture Tracking</h3>
+                <p>Real-time gesture recognition using AI.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Programming Languages</h3>
+                <p>Java, Python, SQL, HTML</p>
+            </div>
+            <div class="card">
+                <h3>Machine Learning & AI</h3>
+                <p>Deep Learning, OpenCV, TensorFlow</p>
+            </div>
+            <div class="card">
+                <h3>Web Development</h3>
+                <p>HTML, CSS, JavaScript, React</p>
+            </div>
+            <div class="card">
+                <h3>Soft Skills</h3>
+                <p>Teamwork, Collaboration, Adaptability</p>
+            </div>
+        </div>
+    </section>
+
+   <!-- Certifications Section -->
+<section id="certifications">
+    <h2>Certifications</h2>
+    <div class="certifications-container">
+        <div class="certificate-box">
+            <h3>AWS Cloud Foundation</h3>
+            <p>Completed the AWS Cloud Foundation course by Amazon.</p>
+        </div>
+        <div class="certificate-box">
+            <h3>Python Programming Workshop</h3>
+            <p>Participated in a Python Programming workshop to enhance coding skills.</p>
+        </div>
+        <div class="certificate-box">
+            <h3>Python for Data Science, AI & Development by IBM</h3>
+            <p>Completed Python for Data Science, AI & Development certification from IBM.</p>
+        </div>
+        <div class="certificate-box">
+            <h3>Developing Websites and Front-Ends with Bootstrap by IBM</h3>
+            <p>Learned how to develop websites and front-end applications using Bootstrap from IBM.</p>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea placeholder="Your Message"></textarea>
+            <button>Send</button>
+        </form>
+    </section>
+
+    <div id="popup" class="popup">
+        <p>Welcome to my portfolio! Explore and learn more about my work and projects.</p>
+        <button id="closePopup">Close</button>
+    </div>
+</body>
+</html>
